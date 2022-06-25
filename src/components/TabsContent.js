@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { startCalc } from '../games/calc';
-import { startEven } from '../games/even';
-import { startGcd } from '../games/gcd';
-import { startPrime } from '../games/prime';
-import { startProgression } from '../games/progression';
+import React, { useState } from 'react';
+import { Form } from "./Form";
+import { calcData } from '../games/calc';
+import { evenData } from '../games/even';
+import { gcdData } from '../games/gcd';
+import { primeData } from '../games/prime';
+import { progressionData } from '../games/progression';
 import { uniqueId } from 'lodash';
 import {
   Tabs,
@@ -14,15 +15,15 @@ import {
   WindowContent,
 } from 'react95';
 
-const calc = startCalc();
-const even = startEven();
-const gcd = startGcd();
-const prime = startPrime();
-const progression = startProgression();
+const calcForm = Form(calcData);
+const evenForm = Form(evenData);
+const gcdForm = Form(gcdData);
+const primeForm = Form(primeData);
+const progressionForm = Form(progressionData);
 
 export const TabsContent = () => {
   const [state, setState] = useState({
-    activeTab: calc,
+    activeTab: calcForm,
   });
 
   const handleChange = (e, value) => setState({
@@ -35,11 +36,11 @@ export const TabsContent = () => {
       <WindowHeader>Welcome to the Brain Games!</WindowHeader>
       <WindowContent>
         <Tabs rows={2} value={activeTab} onChange={handleChange}>
-          <Tab value={calc}>Basic</Tab>
-          <Tab value={even}>Even</Tab>
-          <Tab value={gcd}>GCD</Tab>
-          <Tab value={prime}>Prime</Tab>
-          <Tab value={progression}>Missing</Tab>
+          <Tab id={uniqueId()} value={calcForm}>Basic</Tab>
+          <Tab id={uniqueId()} value={evenForm}>Even</Tab>
+          <Tab id={uniqueId()} value={gcdForm}>GCD</Tab>
+          <Tab id={uniqueId()} value={primeForm}>Prime</Tab>
+          <Tab id={uniqueId()} value={progressionForm}>Missing</Tab>
         </Tabs>
         <TabBody className="">
           {activeTab}

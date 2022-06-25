@@ -1,8 +1,0 @@
-canvas {
-  cursor: crosshair;
-  background-color: #FDF6E3;
-  opacity: 0.5;
-  background-image:  repeating-linear-gradient(45deg, #d2d4ed 25%, transparent 25%, transparent 75%, #d2d4ed 75%, #d2d4ed), repeating-linear-gradient(45deg, #d2d4ed 25%, #FDF6E3 25%, #FDF6E3 75%, #d2d4ed 75%, #d2d4ed);
-  background-position: 0 0, 31px 31px;
-  background-size: 62px 62px;
-}

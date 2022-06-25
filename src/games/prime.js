@@ -1,6 +1,6 @@
-import { StartEngine, getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 
-const condition = 'Answer \'yes\' if given number is prime. Otherwise answer \'no\'.';
+const condition = 'Answer Yes if given number is prime. Otherwise answer No.';
 
 const isPrime = (num) => {
   if (num < 2) {
@@ -14,10 +14,8 @@ const isPrime = (num) => {
 
 const genRoundData = () => {
   const question = getRandomInt(1, 100);
-  const correctAnswer = (isPrime(question)) ? 'yes' : 'no';
+  const correctAnswer = (isPrime(question)) ? 'Yes' : 'No';
   return [question, correctAnswer];
 };
 
-export function startPrime () {
-  return StartEngine(condition, genRoundData);
-};
+export const primeData = { condition, genRoundData };

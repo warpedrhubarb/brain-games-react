@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import Drawing, { brushFromSrc } from "react-drawing";
 
 export default function Canvas () {

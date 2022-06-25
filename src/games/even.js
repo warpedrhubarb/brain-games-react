@@ -1,15 +1,13 @@
-import { StartEngine, getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 
-const condition = 'Answer \'yes\' if the number is even, otherwise answer \'no\'.';
+const condition = 'Answer \'Yes\' if the number is even, otherwise answer \'No\'.';
 
 const isEven = (num) => num % 2 === 0;
 
 const genRoundData = () => {
   const question = getRandomInt(1, 100);
-  const correctAnswer = (isEven(question)) ? 'yes' : 'no';
+  const correctAnswer = (isEven(question)) ? 'Yes' : 'No';
   return [question, correctAnswer];
 };
 
-export function startEven () {
-  return StartEngine(condition, genRoundData);
-};
+export const evenData = { condition, genRoundData };

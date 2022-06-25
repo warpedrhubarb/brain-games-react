@@ -1,24 +1,42 @@
 {
   "name": "brain-games-react",
-  "version": "0.1.0",
+  "description": "Math quiz build with React",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpedrhubarb/brain-games-react.git"
+  },
+  "keywords": [
+    "math",
+    "quiz",
+    "game"
+  ],
+  "author": "Maxim S <xiuxiustephane@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "github.com/warpedrhubarb/brain-games-react/issues"
+  },
+  "homepage": "https://github.com/warpedrhubarb/brain-games-react",
   "engines": {
     "npm": "6.x"
   },
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0-beta1",
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
     "react-drawing": "^1.1.2",
     "react-rewards": "^2.0.4",
     "react-scripts": "5.0.1",
     "react95": "^3.11.1",
     "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

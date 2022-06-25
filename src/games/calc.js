@@ -1,4 +1,4 @@
-import { StartEngine, getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 
 const condition = 'What is the result of the expression?';
 const operators = ['+', '-', '✕'];
@@ -25,6 +25,4 @@ const genRoundData = () => {
   return [question, correctAnswer];
 };
 
-export function startCalc () {
-  return StartEngine(condition, genRoundData);
-};
+export const calcData = { condition, genRoundData };

@@ -1,4 +1,4 @@
-import { StartEngine, getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 
 const condition = 'Find the greatest common divisor of given numbers.';
 
@@ -17,6 +17,4 @@ const genRoundData = () => {
   return [question, correctAnswer];
 };
 
-export function startGcd () {
-  return StartEngine(condition, genRoundData);
-};
+export const gcdData = { condition, genRoundData };

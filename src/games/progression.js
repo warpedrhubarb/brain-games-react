@@ -1,4 +1,4 @@
-import { StartEngine, getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 
 const condition = 'What number is missing in the progression?';
 const progressionLength = getRandomInt(5, 10);
@@ -24,6 +24,4 @@ const genRoundData = () => {
   return [question, correctAnswer];
 };
 
-export function startProgression () {
-  return StartEngine(condition, genRoundData);
-};
+export const progressionData = { condition, genRoundData };
