@@ -1,6 +1,6 @@
 import getRandomInt from '../utils.js';
 
-const condition = 'Answer \'Yes\' if the number is even, otherwise answer \'No\'.';
+const condition = 'Answer Yes if the number is even, otherwise answer No.';
 
 const isEven = (num) => num % 2 === 0;
 
