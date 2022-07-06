@@ -9,21 +9,21 @@ You can also draw doodles on the background if you get bored with math :)
 
 The app consists of five games:
 
-__Find even number:__ Answer Yes if the number is even, otherwise answer No.
+**Find even number:** Answer Yes if the number is even, otherwise answer No.
 
-__Calculator:__ What is the result of the expression?
+**Calculator:** What is the result of the expression?
 
-__Greatest Common Divisor Calculator:__ Find the greatest common divisor of given numbers.
+**Greatest Common Divisor Calculator:** Find the greatest common divisor of given numbers.
 
-__Arithmetic progression:__ Answer Yes if given number is prime. Otherwise answer No.
+**Arithmetic progression:** Answer Yes if given number is prime. Otherwise answer No.
 
-__Find prime number:__ What number is missing in the progression?
+**Find prime number:** What number is missing in the progression?
 
-## Usage
-
-To run it locally, run:
+## Installation
 
 ```npm install```
+
+## Usage
 
 ```npm start```
 
