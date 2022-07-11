@@ -1,6 +1,6 @@
 # Brain Games (React App)
 
-![Brain Games Example](https://media.giphy.com/media/wa1AodPUsmWsQD4Zxd/giphy.gif)
+![Brain Games Example](https://user-images.githubusercontent.com/7108262/178251389-aeeb9b20-e991-4c6c-9753-c2a0773a5de5.gif)
 
 ## Description
 
