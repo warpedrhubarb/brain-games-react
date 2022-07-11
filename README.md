@@ -1,4 +1,6 @@
-# Brain Games (React SPA)
+# Brain Games (React App)
+
+![Brain Games Example](https://media.giphy.com/media/wa1AodPUsmWsQD4Zxd/giphy.gif)
 
 ## Description
 
@@ -30,7 +32,4 @@ The app consists of five games:
 ## Demo
 
 <a href="https://brain-games-react.herokuapp.com/">https://brain-games-react.herokuapp.com/<a>
-
-![Brain Games Example](https://media.giphy.com/media/wa1AodPUsmWsQD4Zxd/giphy.gif)
-
 
