@@ -4,10 +4,10 @@
 
 ## Description
 
-Brain Games is a mathematical quiz <a href="https://github.com/warpedrhubarb/brain-games">first built for command line<a>, redone with GUI with modern React Hooks.
+Brain Games is a mathematical quiz <a href="https://github.com/warpedrhubarb/brain-games">first built for command line</a>, redone with GUI with modern React Hooks.
 You can also draw doodles on the background if you get bored with math :)
 
-<a href="https://react95.io/">React95 UI components<a> are used for this classic 90's look.
+<a href="https://react95.io/">React95 UI components</a> are used for this classic 90's look.
 
 The app consists of five games:
 
